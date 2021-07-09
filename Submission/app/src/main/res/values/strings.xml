@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Submission</string>
+    <string name="contoh_nama">cod sepatu gunung hiking adventure sepatu pendaki gunung pria model semi boots alder</string>
+    <string name="contoh_price">Rp90.000</string>
+    <string name="terjual">1,7RB terjual</string>
+    <string name="contoh_detail">Dijamin barang sesuai dengan di foto . Sepatu bisa di tukar jika ukuran tidak sesuai dengan yang diminta dengan catatan info dahulu dan ongkir ditanggung pembeli jika di minta tukar. Chat terlebih dahulu agar perkiraan sesuai dengan ukuran kaki</string>
+    <string name="rating_decimal">5.0</string>
+    <string name="devider">|</string>
+    <string name="details">Details Product</string>
+    <string name="buy">Buy Product Now</string>
+    <string name="person">person</string>
+    <string name="kotaje4224_noobf_com">kotaje4224@noobf.com</string>
+    <string name="kotjeremy_sutisno">Kotjeremy sutisno</string>
+</resources>
