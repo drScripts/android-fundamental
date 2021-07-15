@@ -8,6 +8,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +24,14 @@ class MainActivity : AppCompatActivity() {
         rvProduct.setHasFixedSize(true)
 
         list.addAll(Items.dataList)
-        showProduct()
+        //showProduct()
+        showListedProduct()
+    }
+
+    private fun showListedProduct() {
+        rvProduct.layoutManager = LinearLayoutManager(this)
+        val productLayoutAdapter = ListItemAdapter(list)
+        rvProduct.adapter = productLayoutAdapter
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

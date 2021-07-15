@@ -13,6 +13,7 @@
          android:id="@+id/rv_product"
          android:layout_width="match_parent"
          android:layout_height="match_parent"
-         tools:listitem="@layout/item_card_layout" />
+         tools:listitem="@layout/item_card_layout"
+         />
 
 </RelativeLayout>
