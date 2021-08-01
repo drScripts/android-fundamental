@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MySubmission</string>
+    <string name="person_name">Person Name</string>
+    <string name="person_username">person username</string>
+    <string name="person_location">person location</string>
+    <string name="person_company">person Company</string>
 </resources>

@@ -58,8 +58,37 @@ object Persons {
     private val followers = arrayOf(56995,5153,7972,14725,788,18628,277,178,428,465)
     private val following = arrayOf(12,2,0,1,0,3,39,23,61,10)
 
-    var datalist : ArrayList<PersonModel>()
-            
+    private val avatar = arrayOf(
+        R.drawable.user1,
+        R.drawable.user2,
+        R.drawable.user3,
+        R.drawable.user4,
+        R.drawable.user5,
+        R.drawable.user6,
+        R.drawable.user7,
+        R.drawable.user8,
+        R.drawable.user9,
+        R.drawable.user10
+    )
+
+    val datalist:ArrayList<PersonModel>
+    get() {
+        val list = arrayListOf<PersonModel>()
+        for (position in usernames.indices){
+            val person = PersonModel()
+            person.username = usernames[position]
+            person.name = name[position]
+            person.company = company[position]
+            person.following = following[position]
+            person.followers = followers[position]
+            person.location = location[position]
+            person.repository = repository[position]
+            person.image = avatar[position]
+            list.add(person)
+        }
+        return list
+    }
+
 }
 
 
